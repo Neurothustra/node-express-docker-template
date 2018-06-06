@@ -5,11 +5,11 @@ A starter template for running a node/express app inside Docker.
 
 ## Getting Started
 
-It's a simple app using node, typescript, nodemon to run inside of Docker Containers.
+It's a simple app using node, typescript, nodemon to run inside of Docker Containers. There is a todo file that lists additional functionality that will be added.
 
 ### Prerequisites
 
-Since this uses Docker, you won't need anything locally installed other than Docker, and an understanding of what that requires to run locally (either docker machine or hyper-v for Windows).
+[Docker](https://www.docker.com/) - [Docker Machine](https://docs.docker.com/machine/install-machine/) if necessary - [Makefile](https://www.gnu.org/software/make/)
 
 ## Authors
 
