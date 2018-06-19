@@ -2,9 +2,9 @@
   "name": "expressnode",
   "version": "1.0.0",
   "description": "",
-  "main": "app/index.js",
+  "main": "./app/index.js",
   "scripts": {
-    "start": "node app/server.js"
+    "start": "node ./app/server.js"
   },
   "author": "",
   "license": "ISC",

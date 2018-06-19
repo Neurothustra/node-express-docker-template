@@ -1,9 +1,9 @@
 FROM node
-WORKDIR /app
-COPY ["package*.json", "*.ts", "./"]
+WORKDIR /src
+COPY package*.json ./
 RUN npm install -g typescript nodemon eslint
-RUN npm install --production --silent && mv node_modules ../
-RUN tsc
+RUN npm install --production
+# RUN tsc server.ts index.ts
 COPY . .
 # ENTRYPOINT bash
 CMD npm start
