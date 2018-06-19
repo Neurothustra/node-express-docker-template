@@ -1,2 +1,1 @@
 + get ts files to compile on docker build
-+ Replace nodemon with webpack-dev-server
