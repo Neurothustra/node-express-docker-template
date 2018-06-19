@@ -9,7 +9,7 @@ It's a simple app using node, typescript, nodemon to run inside of Docker Contai
 
 ### Prerequisites
 
-[Docker](https://www.docker.com/) - [Docker Machine](https://docs.docker.com/machine/install-machine/) if necessary - [Makefile](https://www.gnu.org/software/make/)
+[Docker](https://www.docker.com/) - [Docker Machine](https://docs.docker.com/machine/install-machine/)
 
 ## Authors
 
