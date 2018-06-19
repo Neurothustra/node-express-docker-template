@@ -1,4 +1,3 @@
-
 # node-express-docker-template
 
 A starter template for running a node/express app inside Docker.
@@ -6,6 +5,8 @@ A starter template for running a node/express app inside Docker.
 ## Getting Started
 
 It's a simple app using node, typescript, nodemon to run inside of Docker Containers. There is a todo file that lists additional functionality that will be added.
+CURRENTLY BREAKING - WILL FIX - run the docker-compose build command in the cli, then docker-compose up to start the server. To see it in the browser, add your system's IPv4 (find it with ipconfig)
+then append the app's port, 8080
 
 ### Prerequisites
 
@@ -13,7 +14,7 @@ It's a simple app using node, typescript, nodemon to run inside of Docker Contai
 
 ## Authors
 
-* **Bill Ahern** - *Initial work* - [Neurothustra](https://github.com/neurothustra)
+- **Bill Ahern** - _Initial work_ - [Neurothustra](https://github.com/neurothustra)
 
 ## License
 
@@ -21,4 +22,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* no one yet, but i've got some people in mind
+- no one yet, but i've got some people in mind
