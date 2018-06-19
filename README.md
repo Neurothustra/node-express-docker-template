@@ -10,7 +10,7 @@ then append the app's port, 8080
 
 ### Prerequisites
 
-[Docker](https://www.docker.com/) - [Docker Machine](https://docs.docker.com/machine/install-machine/)
+[Docker](https://www.docker.com/) - [Docker Machine](https://docs.docker.com/machine/install-machine/) (not required if you can enable Hyper-V on Windows OS)
 
 ## Authors
 
