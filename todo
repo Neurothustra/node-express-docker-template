@@ -1,2 +1,2 @@
-+ get nodemon working in a Container - https://stackoverflow.com/questions/38362533/docker-reload-a-nodejs-app-with-nodemon?utm_medium=organic&utm_source=google_rich_qa&utm_campaign=google_rich_qa
 + get ts files to compile on docker build
++ Replace nodemon with webpack-dev-server
