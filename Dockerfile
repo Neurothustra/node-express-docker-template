@@ -1,5 +1,5 @@
 FROM node
-WORKDIR /src
+WORKDIR /app
 COPY package*.json ./
 RUN npm install -g typescript nodemon eslint
 RUN npm install --production
