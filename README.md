@@ -8,6 +8,8 @@ It's a simple app using node, typescript, nodemon to run inside of Docker Contai
 run the docker-compose build command in the cli, then docker-compose up to start the server. To see it in the browser, add your system's IPv4 (find it with ipconfig)
 then append the app's port, 8080
 
+TypeScript files do not currently autocompile. In order to compile, attach a shell to the running container and run the tsc command
+
 ### Prerequisites
 
 [Docker](https://www.docker.com/) - [Docker Machine](https://docs.docker.com/machine/install-machine/) (not required if you can enable Hyper-V on Windows OS)
