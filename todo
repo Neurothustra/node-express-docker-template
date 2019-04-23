@@ -1,1 +1,2 @@
 + get ts files to compile on docker build
++ get ts files to compile when changed
