@@ -1,14 +1,14 @@
 "use strict";
-var express = require('express');
-var app = express();
-var path = require('path');
-app.get('/', function (req, res) {
+const express = require('express');
+const app = express();
+const path = require('path');
+app.get('/', (req, res) => {
     res.sendFile(path.resolve('app/index.html'));
 });
-app.get('/index.js', function (req, res) {
+app.get('/index.js', (req, res) => {
     res.sendFile(path.resolve('app/index.js'));
 });
-app.get('/index.css', function (req, res) {
+app.get('/index.css', (req, res) => {
     res.sendFile(path.resolve('app/index.css'));
 });
-app.listen(8080, function () { return console.log('listening'); });
+app.listen(8080, () => console.log('listening'));

@@ -1,6 +1,19 @@
 
 window.onload = () => {
-    let x = 'this is not x';
-    debugger;
-    console.log(x);
+    new Main();
+}
+
+class Main {
+    outputText = document.querySelector('#output');
+
+    constructor() {
+        this.setOutputText('Success')
+    }
+
+    setOutputText(data: string) {
+        if (this.outputText) {
+            this.outputText.innerHTML = data;
+        }
+
+    }
 }
